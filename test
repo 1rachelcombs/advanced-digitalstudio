@@ -29,6 +29,7 @@ a {
   box-shadow: 0 4px 2px rgba(0,0,0,.5);
   position: relative;
   top: 0px;
+<<<<<<< HEAD
   transition:
     background-color 0.2s,
     border-color 0.2s,
@@ -43,6 +44,20 @@ a:hover, a:focus {
   background-color: #c6de89; 	/* light green */
   border-color: #a3c058;     /* darker green */
 }
+=======
+  transition:  
+    background-color 0.2s,
+    border-color 0.2s, 
+    top 0.1s, 
+    box-shadow 0.1s;
+	
+	
+}
+a:hover, a:focus { 	
+  background-color: #c6de89; 	/* light green */
+  border-color: #a3c058;     /* darker green */
+} 
+>>>>>>> 58d43b98871080f26babfdee0bc51836064d6af9
 a:active {
   top: 3px;
   box-shadow: 0 1px 2px rgba(0,0,0,.5);
